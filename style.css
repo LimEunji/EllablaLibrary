@@ -24,6 +24,7 @@ a {
 .container {
 	width: 1440px;
 	margin: 0 auto;
+	padding: 20px 0px;
 }
 
 header {
@@ -55,4 +56,17 @@ header ul > li {
 	height: 100%;
 	display: flex;
 	align-items: center;
+}
+
+.category-container {
+	display: flex;
+	/* width: 1440px; */
+	margin: auto 20px;
+	flex-flow: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.category-container > a {
+	padding: 10px;
 }
